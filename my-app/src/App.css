@@ -37,7 +37,13 @@
   }
 }
 
-#container {
+#contactContainer {
+  background-color: grey;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#aboutContainer {
   background-color: grey;
   padding: 20px;
   margin-top: 20px;

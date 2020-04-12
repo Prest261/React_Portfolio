@@ -6,7 +6,7 @@ import FormControl from 'react-bootstrap/FormControl'
 
 const Contact = () => {
     return (
-        <div id="container">
+        <div id="contactContainer">
             <Form>
 
                 <InputGroup className="mb-3">

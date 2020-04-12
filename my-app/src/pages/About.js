@@ -3,7 +3,8 @@ import React from "react";
 const About = () => {
     return (
         // remember => a component(function) can only return ONE thing!!
-        <>
+
+        <div id="aboutContainer">
             <h2>About Me</h2>
             <p class="wrap-text">My name is Sydney Preston and I am from Olympia Washington, but I’ve lived in
             several other states throughout my life.
@@ -31,8 +32,9 @@ const About = () => {
             enjoying time with friends.
             I am excited to continue pursuing aerial dance in my freetime as well as to see where this new
                     career path will take me! </p>
+        </div>
 
-        </>
+
     )
 
 };
