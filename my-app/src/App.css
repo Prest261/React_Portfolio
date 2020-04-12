@@ -49,6 +49,13 @@
   margin-top: 20px;
 }
 
+#portfolioContainer {
+  background-color: grey;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
 #basic-addon3 {
   width: 100px;
 }
