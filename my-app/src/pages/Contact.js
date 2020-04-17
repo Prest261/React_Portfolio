@@ -6,8 +6,9 @@ import FormControl from 'react-bootstrap/FormControl'
 
 const Contact = () => {
     return (
-        <div id="contactContainer">
+        <>
             <Form>
+                <h1>Contact</h1>
 
                 <InputGroup className="mb-3">
                     <InputGroup.Prepend>
@@ -50,7 +51,7 @@ const Contact = () => {
                     Submit
             </Button>
             </Form>
-        </div>
+        </>
     )
 };
 

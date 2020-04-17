@@ -4,7 +4,7 @@ import CardDeck from "react-bootstrap/CardDeck";
 
 const Portfolio = () => {
     return (
-        <div id="portfolioContainer">
+        <>
             <CardDeck>
                 <Card>
                     <Card.Img variant="top" src="/images/Screenshot (8).png" alt="DishOut" />
@@ -120,7 +120,7 @@ const Portfolio = () => {
                     </Card.Body>
                 </Card>
             </CardDeck>
-        </div>
+        </>
     )
 };
 

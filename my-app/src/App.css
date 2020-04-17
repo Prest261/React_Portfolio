@@ -2,15 +2,18 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-image: url("./backgroundImg/pink-triangles.jpg");
+  font-family: 'Muli', sans-serif!important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#sydPic {
+  float: left;
+  width: 35vh;
+  padding-right: 10px;
+  margin-right: 10px;
+  margin-left: 20px;
+  margin-top: 15px;
 }
 
 .App-header {
@@ -28,33 +31,51 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
-#contactContainer {
-  background-color: grey;
+.container {
+  /* background-image: linear-gradient(to right, #f7748b, #7f1e32); */
+  /* background-color:#f7748b; */
+  /* background-color: #1e4c79; */
+  /* background-color: #7f1e32; */
+  background-color: #bb495e;
+  /* background-color: #8a729e; */
+  color: white;
   padding: 20px;
   margin-top: 20px;
+  border-color: #301c57;
+  border-style: groove;
+  border-width: 3px;
 }
 
-#aboutContainer {
-  background-color: grey;
-  padding: 20px;
-  margin-top: 20px;
+p {
+  /* padding: 20px; */
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: 'Muli', sans-serif;
 }
 
-#portfolioContainer {
-  background-color: grey;
-  padding: 20px;
-  margin-top: 20px;
+h2 {
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-left: 10px;
+  font-family: 'Muli', sans-serif;
 }
 
+hr {
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 1px;
+  background-color: #301c57; 
+}
+
+.bg-dark {
+  /* background-image: linear-gradient(to left, #67aeca, #9066d3); */
+  background-image: linear-gradient(to left, #f7748b, #7f1e32 );
+  border-bottom: groove;
+  border-bottom-color: #301c57;
+  border-bottom-width: 3px;
+}
 
 #basic-addon3 {
   width: 100px;
