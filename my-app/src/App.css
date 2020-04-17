@@ -7,6 +7,10 @@ body {
   font-family: 'Muli', sans-serif!important;
 }
 
+a.card-link {
+  color: #7dbee0!important;
+}
+
 #sydPic {
   float: left;
   width: 35vh;
@@ -27,9 +31,9 @@ body {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* .App-link {
+  color: #301c57;
+} */
 
 
 .container {
@@ -48,7 +52,6 @@ body {
 }
 
 p {
-  /* padding: 20px; */
   padding-top: 10px;
   padding-right: 20px;
   padding-left: 20px;
@@ -87,33 +90,33 @@ hr {
 }
 
 .form-control {
-  background-color: #f7748b!important;
+  background-color: rgb(247, 115, 139, 0.88)!important;
   border-color: #f7748b!important;
   padding: 22px!important;
 }
 
 #basic-addon1 {
-  background-color: #7f1e32;
+  background-color: rgb(127, 30, 50, 0.85);
   border-color: #7f1e32;
   color: white;
 }
 
 #basic-addon2 {
-  background-color: #7f1e32;
+  background-color: rgb(127, 30, 50, 0.85);
   border-color: #7f1e32;
   color: white;
 }
 
 #basic-addon3 {
   width: 106.48px;
-  background-color: #7f1e32;
+  background-color:rgb(127, 30, 50, 0.85);
   border-color: #7f1e32;
   color: white;
 }
 
 #basic-addon4 {
   width: 106.48px;
-  background-color: #7f1e32;
+  background-color:rgb(127, 30, 50, 0.85);
   border-color: #7f1e32;
   color: white;
 }
@@ -122,6 +125,25 @@ hr {
   margin-top: 15px;
   background-color: black;
   border-color: black;
+}
+
+.card {
+  background-color: rgb(127, 30, 50, 0.85)!important;
+  border-color: #301c57!important;
+  border-width: 1.5px!important;
+  margin: 20px;
+}
+
+.card-deck {
+  margin: 20px!important;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-body {
+  text-align: center;
 }
 
 

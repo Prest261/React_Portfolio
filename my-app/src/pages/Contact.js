@@ -7,7 +7,7 @@ import FormControl from 'react-bootstrap/FormControl';
 const Contact = () => {
     return (
         <>
-            <h2>Contact Me</h2>
+            <h2>Contact</h2>
             <hr></hr>
             <Form id="contactForm">
 
