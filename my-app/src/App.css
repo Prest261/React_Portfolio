@@ -37,7 +37,7 @@ body {
   /* background-color:#f7748b; */
   /* background-color: #1e4c79; */
   /* background-color: #7f1e32; */
-  background-color: #bb495e;
+  background-color: rgb(187, 73, 94, 0.8);
   /* background-color: #8a729e; */
   color: white;
   padding: 20px;
@@ -69,20 +69,53 @@ hr {
   background-color: #301c57; 
 }
 
+#contactForm {
+  margin: 20px;
+  margin-top: 30px;
+}
+
+#submitBtn {
+  background-color: #301c57!important;
+  border-color: #301c57!important;
+}
+
 .bg-dark {
-  /* background-image: linear-gradient(to left, #67aeca, #9066d3); */
-  background-image: linear-gradient(to left, #f7748b, #7f1e32 );
+  background-image: linear-gradient(to left, rgb(247, 116, 139, 0.9), rgb(127, 30, 50, 0.9) );
   border-bottom: groove;
   border-bottom-color: #301c57;
   border-bottom-width: 3px;
 }
 
+.form-control {
+  background-color: #f7748b!important;
+  border-color: #f7748b!important;
+  padding: 22px!important;
+}
+
+#basic-addon1 {
+  background-color: #7f1e32;
+  border-color: #7f1e32;
+  color: white;
+}
+
+#basic-addon2 {
+  background-color: #7f1e32;
+  border-color: #7f1e32;
+  color: white;
+}
+
 #basic-addon3 {
-  width: 100px;
+  width: 106.48px;
+  background-color: #7f1e32;
+  border-color: #7f1e32;
+  color: white;
 }
 
 #basic-addon4 {
-  width: 100px;
+  width: 106.48px;
+  background-color: #7f1e32;
+  border-color: #7f1e32;
+  color: white;
 }
 
 #submitBtn {
