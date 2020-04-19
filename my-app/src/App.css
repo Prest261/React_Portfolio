@@ -1,25 +1,10 @@
 .App {
   text-align: center;
 }
-
 body {
   background-image: url("./backgroundImg/pink-triangles.jpg");
   font-family: 'Muli', sans-serif!important;
 }
-
-a.card-link {
-  color: #7dbee0!important;
-}
-
-#sydPic {
-  float: left;
-  width: 35vh;
-  padding-right: 10px;
-  margin-right: 10px;
-  margin-left: 20px;
-  margin-top: 15px;
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -30,120 +15,137 @@ a.card-link {
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-/* .App-link {
-  color: #301c57;
-} */
-
-
 .container {
-  /* background-image: linear-gradient(to right, #f7748b, #7f1e32); */
-  /* background-color:#f7748b; */
-  /* background-color: #1e4c79; */
-  /* background-color: #7f1e32; */
   background-color: rgb(187, 73, 94, 0.8);
-  /* background-color: #8a729e; */
   color: white;
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 5vh;
+  margin-bottom: 20vh;
   border-color: #301c57;
   border-style: groove;
   border-width: 3px;
 }
-
 p {
   padding-top: 10px;
   padding-right: 20px;
   padding-left: 20px;
   font-family: 'Muli', sans-serif;
 }
-
 h2 {
   padding: 10px;
   padding-bottom: 0px;
   margin-left: 10px;
   font-family: 'Muli', sans-serif;
 }
-
 hr {
   margin-right: 20px;
   margin-left: 20px;
   padding: 1px;
   background-color: #301c57; 
 }
-
-#contactForm {
-  margin: 20px;
-  margin-top: 30px;
-}
-
-#submitBtn {
-  background-color: #301c57!important;
-  border-color: #301c57!important;
-}
-
 .bg-dark {
-  background-image: linear-gradient(to left, rgb(247, 116, 139, 0.9), rgb(127, 30, 50, 0.9) );
+  background-image: linear-gradient(to left, rgb(247, 116, 139, 0.95), rgb(127, 30, 50, 0.95) );
   border-bottom: groove;
   border-bottom-color: #301c57;
   border-bottom-width: 3px;
 }
-
-.form-control {
-  background-color: rgb(247, 115, 139, 0.88)!important;
-  border-color: #f7748b!important;
-  padding: 22px!important;
-}
-
-#basic-addon1 {
-  background-color: rgb(127, 30, 50, 0.85);
-  border-color: #7f1e32;
-  color: white;
-}
-
-#basic-addon2 {
-  background-color: rgb(127, 30, 50, 0.85);
-  border-color: #7f1e32;
-  color: white;
-}
-
-#basic-addon3 {
-  width: 106.48px;
-  background-color:rgb(127, 30, 50, 0.85);
-  border-color: #7f1e32;
-  color: white;
-}
-
-#basic-addon4 {
-  width: 106.48px;
-  background-color:rgb(127, 30, 50, 0.85);
-  border-color: #7f1e32;
-  color: white;
-}
-
-#submitBtn {
+#sydPic {
+  float: left;
+  width: 35vh;
+  padding-right: 10px;
+  margin-right: 10px;
+  margin-left: 20px;
   margin-top: 15px;
-  background-color: black;
-  border-color: black;
 }
 
+/* footer styles */
+.page-footer {
+  background-image: linear-gradient(to left, rgb(247, 116, 139), rgb(127, 30, 50) );
+}
+#footerContainer {
+  color: white;
+  border-top-color: #301c57!important;
+  border-top-style: groove;
+  border-top-width: 3px!important;
+}
+#profLinks {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: 'Muli', sans-serif;
+}
+.title {
+  margin-top: 15px;
+}
+#linkList {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: 'Muli', sans-serif;
+}
+a.Links {
+  color: #7dbee0!important
+}
+#copyright {
+  background-color: rgb(127, 30, 50, 0.4);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* portfolio styles */
+a.card-link {
+  color: #7dbee0!important;
+}
 .card {
   background-color: rgb(127, 30, 50, 0.85)!important;
   border-color: #301c57!important;
   border-width: 1.5px!important;
   margin: 20px;
 }
-
 .card-deck {
   margin: 20px!important;
 }
-
 .card-title {
   text-align: center;
 }
-
 .card-body {
   text-align: center;
 }
 
-
+/* contact page styles */
+#contactForm {
+  margin: 20px;
+  margin-top: 30px;
+}
+#submitBtn {
+  margin-top: 20px;
+  background-color: #301c57!important;
+  border-color: #301c57!important;
+}
+.form-control {
+  background-color: rgb(247, 115, 139, 0.88)!important;
+  border-color: #f7748b!important;
+  padding: 22px!important;
+}
+#basic-addon1 {
+  background-color: rgb(127, 30, 50, 0.85);
+  border-color: #7f1e32;
+  color: white;
+}
+#basic-addon2 {
+  background-color: rgb(127, 30, 50, 0.85);
+  border-color: #7f1e32;
+  color: white;
+}
+#basic-addon3 {
+  width: 106.48px;
+  background-color:rgb(127, 30, 50, 0.85);
+  border-color: #7f1e32;
+  color: white;
+}
+#basic-addon4 {
+  width: 106.48px;
+  background-color:rgb(127, 30, 50, 0.85);
+  border-color: #7f1e32;
+  color: white;
+}

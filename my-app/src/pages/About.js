@@ -46,6 +46,7 @@ const About = () => {
 
                 </Col>
             </Row>
+
         </>
     )
 

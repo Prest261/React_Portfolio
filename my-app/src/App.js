@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar";
 import About from "./pages/About";
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
+import Footer from "./components/Footer";
 
 // NavBar on top => used to click between "pages"
 // /game => Game 
@@ -26,6 +27,8 @@ function App() {
           <Route component={About} />
         </Switch>
       </div>
+      <Footer>
+      </Footer>
     </Router>
 
   );
