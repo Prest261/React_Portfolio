@@ -149,3 +149,43 @@ a.card-link {
   border-color: #7f1e32;
   color: white;
 }
+
+#sydPic {
+  float: left;
+  width: 35vh;
+  padding-right: 10px;
+  margin-right: 10px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 350px) {
+  #sydPic {
+      width: 92%;
+      height: auto;
+      margin: 10px 20px 20px 20px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #sydPic {
+      width: 40%;
+      margin-right: 30px;
+  }
+  .container {
+    margin-bottom: 30vh;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 980px) {
+  #sydPic {
+      width: 30%;
+  }
+  .container {
+    margin-bottom: 40vh;
+  }
+}
