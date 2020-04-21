@@ -2,6 +2,7 @@ import React from "react";
 import Image from 'react-bootstrap/Image'
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Sydney from "../backgroundImg/Sydney.jpg";
 
 const About = () => {
     return (
@@ -17,7 +18,7 @@ const About = () => {
             <Row>
                 <Col>
 
-                    <Image id="sydPic" src="../images/Sydney.jpg" rounded></Image>
+                    <Image id="sydPic" src={Sydney} rounded></Image>
 
                     <p class="wrap-text">My name is Sydney Preston and I am from Olympia Washington, but I’ve lived in
                     several other states throughout my life.

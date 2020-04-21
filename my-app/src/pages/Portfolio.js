@@ -1,13 +1,21 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import CardDeck from "react-bootstrap/CardDeck";
+import DishOut from "../backgroundImg/Screenshot (8).png";
+import DailyPlanner from "../backgroundImg/Screenshot (17).png";
+import PasswordGen from "../backgroundImg/Screenshot (18).png";
+import CodeQuiz from "../backgroundImg/Screenshot (14).png";
+import Burger from "../backgroundImg/Screenshot (28).png";
+import NoteTaker from "../backgroundImg/Screenshot (30).png";
+import EmployeeTrack from "../backgroundImg/Screenshot (29).png";
+import EmployeeSum from "../backgroundImg/Screenshot (32).png";
 
 const Portfolio = () => {
     return (
         <>
             <CardDeck>
                 <Card>
-                    <Card.Img variant="top" src="/images/Screenshot (8).png" alt="DishOut" />
+                    <Card.Img variant="top" src={DishOut} alt="DishOut" />
                     <Card.Body>
                         <Card.Title>DishOut</Card.Title>
                         <Card.Text>
@@ -20,7 +28,7 @@ const Portfolio = () => {
                     </Card.Body>
                 </Card>
                 <Card>
-                    <Card.Img variant="top" src="/images/Screenshot (17).png" alt="Daily Planner" />
+                    <Card.Img variant="top" src={DailyPlanner} alt="Daily Planner" />
                     <Card.Body>
                         <Card.Title>Daily Planner</Card.Title>
                         <Card.Text>
@@ -35,7 +43,7 @@ const Portfolio = () => {
             </CardDeck>
             <CardDeck>
                 <Card>
-                    <Card.Img variant="top" src="/images/Screenshot (18).png" alt="Password Generator" />
+                    <Card.Img variant="top" src={PasswordGen} alt="Password Generator" />
                     <Card.Body>
                         <Card.Title>Password Generator</Card.Title>
                         <Card.Text>
@@ -48,7 +56,7 @@ const Portfolio = () => {
                     </Card.Body>
                 </Card>
                 <Card>
-                    <Card.Img variant="top" src="/images/Screenshot (14).png" alt="Code Quiz" />
+                    <Card.Img variant="top" src={CodeQuiz} alt="Code Quiz" />
                     <Card.Body>
                         <Card.Title>Code Quiz</Card.Title>
                         <Card.Text>
@@ -63,7 +71,7 @@ const Portfolio = () => {
             </CardDeck>
             <CardDeck>
                 <Card>
-                    <Card.Img variant="top" src="/images/Screenshot (28).png" alt="Burger" />
+                    <Card.Img variant="top" src={Burger} alt="Burger" />
                     <Card.Body>
                         <Card.Title>Eat-Da-Burger</Card.Title>
                         <Card.Text>
@@ -76,7 +84,7 @@ const Portfolio = () => {
                     </Card.Body>
                 </Card>
                 <Card>
-                    <Card.Img variant="top" src="/images/Screenshot (30).png" alt="Note Taker" />
+                    <Card.Img variant="top" src={NoteTaker} alt="Note Taker" />
                     <Card.Body>
                         <Card.Title>Note Taker</Card.Title>
                         <Card.Text>
@@ -91,7 +99,7 @@ const Portfolio = () => {
             </CardDeck>
             <CardDeck>
                 <Card>
-                    <Card.Img variant="top" src="/images/Screenshot (29).png" alt="Employee Tracker" />
+                    <Card.Img variant="top" src={EmployeeTrack} alt="Employee Tracker" />
                     <Card.Body>
                         <Card.Title>Employee Tracker</Card.Title>
                         <Card.Text>
@@ -106,7 +114,7 @@ const Portfolio = () => {
 
 
                 <Card>
-                    <Card.Img variant="top" src="/images/Screenshot (32).png" alt="Employee Summary" />
+                    <Card.Img variant="top" src={EmployeeSum} alt="Employee Summary" />
                     <Card.Body>
                         <Card.Title>Employee Summary</Card.Title>
                         <Card.Text>
