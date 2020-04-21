@@ -1,26 +1,35 @@
 {
   "files": {
     "main.css": "/React_Portfolio/static/css/main.00cd74e4.chunk.css",
-    "main.js": "/React_Portfolio/static/js/main.ab3f9df7.chunk.js",
-    "main.js.map": "/React_Portfolio/static/js/main.ab3f9df7.chunk.js.map",
+    "main.js": "/React_Portfolio/static/js/main.08c85aa0.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.08c85aa0.chunk.js.map",
     "runtime-main.js": "/React_Portfolio/static/js/runtime-main.75454567.js",
     "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.75454567.js.map",
     "static/css/2.de424728.chunk.css": "/React_Portfolio/static/css/2.de424728.chunk.css",
-    "static/js/2.ce83c7ab.chunk.js": "/React_Portfolio/static/js/2.ce83c7ab.chunk.js",
-    "static/js/2.ce83c7ab.chunk.js.map": "/React_Portfolio/static/js/2.ce83c7ab.chunk.js.map",
+    "static/js/2.e09b4d19.chunk.js": "/React_Portfolio/static/js/2.e09b4d19.chunk.js",
+    "static/js/2.e09b4d19.chunk.js.map": "/React_Portfolio/static/js/2.e09b4d19.chunk.js.map",
     "index.html": "/React_Portfolio/index.html",
-    "precache-manifest.f98c96c05627ab67d99460aec6d85a3f.js": "/React_Portfolio/precache-manifest.f98c96c05627ab67d99460aec6d85a3f.js",
+    "precache-manifest.1076b6c2d01a619884a6b277e7648dd8.js": "/React_Portfolio/precache-manifest.1076b6c2d01a619884a6b277e7648dd8.js",
     "service-worker.js": "/React_Portfolio/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/React_Portfolio/static/css/2.de424728.chunk.css.map",
     "static/css/main.00cd74e4.chunk.css.map": "/React_Portfolio/static/css/main.00cd74e4.chunk.css.map",
-    "static/js/2.ce83c7ab.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.ce83c7ab.chunk.js.LICENSE.txt",
+    "static/js/2.e09b4d19.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.e09b4d19.chunk.js.LICENSE.txt",
+    "static/media/Screenshot (14).png": "/React_Portfolio/static/media/Screenshot (14).bc4aa62d.png",
+    "static/media/Screenshot (17).png": "/React_Portfolio/static/media/Screenshot (17).76bee005.png",
+    "static/media/Screenshot (18).png": "/React_Portfolio/static/media/Screenshot (18).f04d99e9.png",
+    "static/media/Screenshot (28).png": "/React_Portfolio/static/media/Screenshot (28).917ea4cd.png",
+    "static/media/Screenshot (29).png": "/React_Portfolio/static/media/Screenshot (29).e3cdffc6.png",
+    "static/media/Screenshot (30).png": "/React_Portfolio/static/media/Screenshot (30).8bbf4090.png",
+    "static/media/Screenshot (32).png": "/React_Portfolio/static/media/Screenshot (32).24b8e482.png",
+    "static/media/Screenshot (8).png": "/React_Portfolio/static/media/Screenshot (8).caaf535c.png",
+    "static/media/Sydney.jpg": "/React_Portfolio/static/media/Sydney.c6009636.jpg",
     "static/media/App.css": "/React_Portfolio/static/media/pink-triangles.636b177e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.75454567.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.ce83c7ab.chunk.js",
+    "static/js/2.e09b4d19.chunk.js",
     "static/css/main.00cd74e4.chunk.css",
-    "static/js/main.ab3f9df7.chunk.js"
+    "static/js/main.08c85aa0.chunk.js"
   ]
 }
